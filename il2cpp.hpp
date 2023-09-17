@@ -3,8 +3,8 @@
 namespace glb {
   inline std::uintptr_t game_assembly = 0;
 	constexpr auto class_table_1 = 0x34AB9B8;
-  constexpr auto class_table_2 = 0x34ABA78;
-  constexpr auto class_table_3 = 0x34AB980;
+	constexpr auto class_table_2 = 0x34ABA78;
+  	constexpr auto class_table_3 = 0x34AB980;
 	constexpr auto assemblies_begin = 0x34AB6A0;
 	constexpr auto assemblies_end = assemblies_begin + sizeof( void* );
 }

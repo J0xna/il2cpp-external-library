@@ -1,5 +1,7 @@
 // include your own driver / memory library alongside all the dependencies from c++.
 
+#define OFFSET( func, type, offset ) type func { return driver::read< type >( reinterpret_cast< std::uintptr_t >( this ) + offset ); }
+
 namespace glb {
   inline std::uintptr_t game_assembly = 0;
 	constexpr auto class_table_1 = 0x34AB9B8;

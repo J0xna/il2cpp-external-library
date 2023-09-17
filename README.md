@@ -1,7 +1,7 @@
 # il2cpp-external-library
 
 Example usage:
-
+```
 int main( ) {
 	il2cpp::initialize( );
 
@@ -12,3 +12,4 @@ int main( ) {
 	}
 	return 0;
 }
+```
